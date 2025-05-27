@@ -1,0 +1,18 @@
+/* src/sections/Portfolio.css */
+.portfolio-section {
+    background-color: var(--dark-bg);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr; /* Stack projects on smaller screens */
+    }
+}
