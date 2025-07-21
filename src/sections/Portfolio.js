@@ -13,23 +13,23 @@ function Portfolio() {
     const projects = [
         {
             image: project1Img,
-            title: 'E-commerce Store',
+            title: 'ASICS Indonesia',
             description: 'Membangun platform e-commerce responsif dengan fitur keranjang belanja dan otentikasi pengguna.',
-            liveLink: 'https://example.com/project1', // Ganti dengan link demo live
+            liveLink: 'https://asics.co.id', // Ganti dengan link demo live
             repoLink: 'https://github.com/namaanda/project1-repo' // Ganti dengan link GitHub repo
         },
         {
             image: project2Img,
-            title: 'Task Management App',
-            description: 'Aplikasi manajemen tugas berbasis web untuk mengatur dan melacak pekerjaan harian.',
-            liveLink: 'https://example.com/project2',
+            title: 'Planet Suf Indonesia',
+            description: 'Shopify store untuk Planet Surf Indonesia dengan desain responsif dan integrasi pembayaran.',
+            liveLink: 'https://www.planetsurfonline.com/',
             repoLink: 'https://github.com/namaanda/project2-repo'
         },
         {
             image: project3Img,
-            title: 'Blog Pribadi',
-            description: 'Desain dan pengembangan blog pribadi dengan sistem posting dan komentar.',
-            liveLink: 'https://example.com/project3',
+            title: 'KJ Perabot',
+            description: 'Membangun platform e-commerce responsif dengan fitur keranjang belanja dan otentikasi pengguna.',
+            liveLink: 'https://kjperabot.co.id/',
             repoLink: 'https://github.com/namaanda/project3-repo'
         },
         // Tambahkan proyek lain sesuai kebutuhan Anda

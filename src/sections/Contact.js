@@ -26,7 +26,7 @@ function Contact() {
         // Contoh menggunakan Formspree (sangat mudah untuk portofolio statis):
         // 1. Daftar di Formspree.io dan buat form baru untuk mendapatkan URL endpoint Anda.
         // 2. Ganti 'YOUR_FORMSPREE_URL' dengan URL form Anda.
-        fetch('https://formspree.io/f/YOUR_FORMSPREE_URL', { // GANTI INI!
+        fetch('https://formspree.io/f/xjkwnree', { // GANTI INI!
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -60,9 +60,9 @@ function Contact() {
                     <button type="submit" className="btn btn-primary">Kirim Pesan</button>
                 </form>
                 <div className="social-links">
-                    <a href="mailto:emailanda@example.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-envelope"></i></a>
-                    <a href="https://linkedin.com/in/namaanda" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/namaanda" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+                    <a href="mailto:ragum.zy@gmail.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/abdurrahman-ragum-zuhair-yazid-a58b05112/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/ragum" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
                     {/* Tambahkan link sosial media lain */}
                 </div>
             </div>

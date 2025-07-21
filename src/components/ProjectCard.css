@@ -17,8 +17,10 @@
 .project-item img {
     width: 100%;
     height: 200px; /* Fixed height for consistency */
-    object-fit: cover;
+    object-fit: contain;
     display: block;
+    background-color: white;
+    padding: 0 15px;
 }
 
 .project-content {
@@ -50,6 +52,6 @@
 }
 
 .project-links .btn-small {
-    flex-basis: 50%; /* Make buttons take half width */
+    flex-basis: 100%; /* Make buttons take half width */
     text-align: center;
 }

@@ -8,7 +8,7 @@ function Hero() {
         <header className="hero-section">
             <div className="container">
                 <img src={profileImg} alt="Foto Profil Nama Anda" className="profile-img" />
-                <h1>Ragum: Web Programmer Kreatif</h1>
+                <h1>Ragum: Your Daily Web Programmer</h1>
                 <p>Mengembangkan Solusi Web Inovatif dan Berkinerja Tinggi.</p>
                 <div className="cta-buttons">
                     <a href="#portfolio" className="btn btn-primary">Lihat Portofolio Saya</a>

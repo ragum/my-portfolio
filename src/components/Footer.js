@@ -6,11 +6,11 @@ function Footer() {
     return (
         <footer>
             <div className="container">
-                <p>&copy; 2024 Nama Anda. Hak Cipta Dilindungi Undang-Undang.</p>
-                <div className="footer-links">
+                <p>&copy; 2024 Ragum. Hak Cipta Dilindungi Undang-Undang.</p>
+                {/* <div className="footer-links">
                     <a href="#">Privasi</a>
                     <a href="#">Syarat Penggunaan</a>
-                </div>
+                </div> */}
             </div>
         </footer>
     );
